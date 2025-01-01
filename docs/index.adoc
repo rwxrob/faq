@@ -35,6 +35,8 @@ include::./copyright.adoc[]
 
 include::./tools/index.adoc[]
 
+include::why-golang.adoc[]
+
 include::why-no-nano.adoc[]
 
 include::why-vim.adoc[]

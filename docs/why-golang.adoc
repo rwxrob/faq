@@ -1,0 +1,4 @@
+= Why code in Go?
+
+> [YouTube: Sameer] yeah but here in India majority of startups are now preferring go and me being 2024 graduate see a lot of opportunities in go
+
