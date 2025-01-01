@@ -1,0 +1,70 @@
+[separator=::]
+= Frequently Answered Questions
+:author: Robert S. Muhlestein (rwxrob)
+:creator: {author}
+:copyright: 2024 {author}
+:email: rob@rwx.gg
+:revdate: {date}
+:revremark: Perpetually published
+:doctype: book
+:leveloffset: +1
+:front-cover-image: image:cover.jpeg[width=1024,height=1024]
+:sectnums!:
+:sectlinks:
+:toc: left
+:toclevels: 1
+:toc-title: Table of Contents
+:description: Frequently Answered Questions
+:keywords: terminal unix linux tech education tutorials learning techlife hacking cybersecurity cli command-line bash golang programming coding applied-programming independent-learning irc weechat tmux ed ex vi vim neovim nvim w3m lynx twitch proxmox homelab init beginner noob kubernetes network software-development utilities
+:icons: font
+:xrefstyle: short
+:source-highlighter: pygments
+:pygments-style: vs
+:pygments-linenums-mode: table
+
+_All the questions I'm tired of answering_
+
+[cols="^.^1,1,1",options="autowidth"]
+|===
+| https://linktr.ee/rwxrob | link:./rwxrob-faq.pdf[Download PDF] | link:./rwxrob-faq.epub[Download EPUB]
+|===
+
+---
+
+include::./copyright.adoc[]
+
+include::./tools/index.adoc[]
+
+include::why-no-nano.adoc[]
+
+include::why-vim.adoc[]
+
+include::why-vimrc.adoc[]
+
+include::why-github.adoc[]
+
+include::why-bash-for-beginners.adoc[]
+
+include::why-git-bash.adoc[]
+
+include::what-other-term-magic.adoc[]
+
+include::why-not-linux-beginners.adoc[]
+
+include::whats-your-distro.adoc[]
+
+include::i-use-linux-btw.adoc[]
+
+include::why-not-alacritty.adoc[]
+
+include::why-not-toml.adoc[]
+
+include::why-perl-rocks.adoc[]
+
+include::why-another-go-book.adoc[]
+
+include::why-so-quiet.adoc[]
+
+include::why-asciidoc-not-mkdocs.adoc[]
+
+include::whats-your-favorite-thing-to-do.adoc[]

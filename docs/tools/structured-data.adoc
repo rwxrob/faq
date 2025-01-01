@@ -1,0 +1,61 @@
+=== Best structured data
+
+[options="autowidth"]
+|===
+| Structured data | YAML | Industry standard, readable, maintainable, complex, `yq`
+| Data endpoints | JSON | Industry standard, safe transfer, complex, `jq`
+| Data cache | Properties | Fastest/simplest parsing while also human readable
+| Tables | Delimited | Fastest/simplest parsing while also human readable
+| High performance | Protobuf | Industry standard, binary
+| SVG, Documents | XML | Industry standard, best tooling
+|===
+
+---
+
+==== Avoid CSV
+
+People assuming CSV file format is just a bunch of fields delimited by commas has been the source of an extremely large amount of bugs in the thirty years I have been forced to occasionally use it. The algorithm for parsing a true CSV file is incredibly complicated and requires a well-established package library to be done properly. Alternatives like simple delimited formats do not.
+
+==== Avoid TOML
+
+TOML (Tom's Obvious, Minimal Language) is praised for its simplicity and readability, making it a popular choice for configuration files. However, when dealing with complex configurations and large data volumes, TOML exhibits several significant limitations.
+
+==== Hierarchical limitations
+
+TOML supports basic data structures like tables and arrays but struggles with representing deeply nested or complex hierarchies. This can lead to verbose and less maintainable configuration files when configurations become intricate.
+
+==== Performance with large files
+
+Parsing large TOML files can be slower compared to more optimized formats like JSON or Protocol Buffers. This performance degradation is noticeable in applications that require frequent reads and writes to configuration files.
+
+==== Memory consumption
+
+Handling extensive TOML configurations may result in higher memory usage, as the parser needs to load and process the entire file into memory. This can be problematic for applications running in memory-constrained environments.
+
+==== No native inheritance
+
+TOML lacks built-in mechanisms for inheritance or extending configurations. Managing configurations that share common settings or require hierarchical overrides becomes cumbersome and error-prone.
+
+==== Reusability constraints
+
+Reusing configuration snippets or modularizing configurations requires manual duplication or external tooling, reducing maintainability and increasing the risk of inconsistencies.
+
+==== No comments in arrays
+
+While TOML allows comments in tables and key-value pairs, adding comments within arrays is not supported. This limitation can impede documentation within complex data structures, making configurations harder to understand.
+
+==== Minimal error feedback
+
+TOML parsers often provide limited error messages, making it difficult to debug issues in large and complex configuration files. This lack of clarity can slow down development and maintenance processes.
+
+==== Schema validation
+
+There is no standardized schema definition for TOML, unlike JSON Schema for JSON or YAML schemas. This absence complicates the validation of configurations against expected structures and data types, increasing the potential for runtime errors.
+
+==== Smaller ecosystem
+
+Compared to JSON (`jq`), YAML (`yq`), or XML (`yq`), TOML has a smaller ecosystem of tools, libraries, and community support for handling complex and large-scale configurations. This scarcity can limit available resources and hinder the adoption of TOML in diverse projects.
+
+==== Limited editor support
+
+Advanced editor features like intelligent autocompletion, validation, and linting are less mature for TOML. This limitation increases the likelihood of errors in large files and reduces developer productivity.

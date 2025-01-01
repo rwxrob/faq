@@ -1,0 +1,52 @@
+= What is the best tool for the job?
+
+Almost every serious question wanting my opinion on something could have been rephrased into the question: What is the best tool for the job—right now? I've had to add that "right now" part because this list changes from year to year, sometimes even month to month. In tech the only thing constant is that nothing is constant.
+
+It might help to know my preferences:
+
+- Most likely to be required working for a large corporation
+- Used and recommended by _actual_ professionals (not "influencers")
+- Popular because of successful, wide-adoption
+- Mature, stable, and easy to use
+- As open sourced as is practical (_never_ GPLv3)
+
+== Operating systems
+
+[options="autowidth"]
+|===
+| Job | OS | Why
+| Development | macOS (Unix) | Largest Unix distro in the world, compatibility, speed
+| Sound Engineering | macOS (Unix) | Preferred by all DJs, musicians, sound techies
+| Business | macOS (Unix) | Easiest to use, safest, best-in-class video chat, longest battery life
+| Gaming | Windows | PC master race, nothing beats Windows for gaming
+| 3D modeling | Windows | SolidWorks only runs on Windows, DirectX standard
+| Hacking | Windows + WSL2 | Required for OSEE, can run all others as VMs
+| Servers | RedHat Linux | Industry standard
+| Containers | Ubuntu Linux | Industry standard
+| Routers | BSD | Industry standard
+|===
+
+[options="autowidth"]
+|===
+| Job | Tool | Why
+
+| Server VMs | KVM/QEMU | Gold standard
+| Distro VMs | VMWare | Supported, stable, not Oracle, required by OSEE
+| Container OS | Ubuntu Linux | Ubiquity, flexibility, support, adoptions
+| Server OS | RedHat Linux | Ubiquity, market leader
+| Text editing | `vim` | Ubiquity, Unix filters while editing, muscle-memory
+| Development | `nvim` | Dynamic configuration, extensibility, sustainability, cognitive compatibility with `vim`
+| Command history | `set -o vi` | Searchable history, minimal cognitive switching
+| Text processing | `perl` | Gold standard for regex, `libpcre`
+| Terminal | WezTerm | GPU accelerated, configurable, full support 
+| Cut/paste | `screen`/`tmux` | Works between heterogeneous sessionts
+| Sessions | `screen`/`tmux` | Ubiquity, configurability
+| Windows/Panes | `screen`/`tmux` | Gold standard for multiplexing
+| Sharing | `screen`/`tmux` | Allows any two users to share terminal/keyboard
+| File finder | `find` | Ubiquity, flexibility, extensibility, universal
+| Containers | `podman` | Not deprecated like Docker company
+|===
+
+include::./lang.adoc[]
+
+include::./structured-data.adoc[]

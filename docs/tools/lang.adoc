@@ -1,0 +1,20 @@
+=== Best language
+
+[options="autowidth"]
+|===
+|Job | Language | Why
+| Interactive shell | Bash | Ubiquitous, power, self-completion, safest
+| Shell scripting | Shell | Ubiquitous, compatibility, best license
+| Windows scripting | PowerShell | Mandatory, piped objects/structs
+| Text processing | Perl | Fastest to write, dense but contextual and powerful
+| Machine learning | Python | Pytorch, Tensorflow, NumPy (actually C underneath)
+| Automation | Python | Ansible, BeautifulSoup, fast to write
+| Terminal apps | Go | Cobra, Bonzai, Charmbracelet, embedded resources, batteries included
+| Middleware | Go | Cloud-native standard, Kubernetes, podman, helm, Gin
+| Multicall monoliths | Go | Bonzai, fastest cross-compilation, easy to write
+| Embedding resources | Go | Self-contained binaries with embedded file system
+| Electron alternative | Go | Serve embedded resources to local web browser
+| Performant terminals | Rust | Fastest execution speed, safer and easier than C
+| Dynamic configuration | Lua | Ubiquity, embeddable, easy to write and read
+|===
+
