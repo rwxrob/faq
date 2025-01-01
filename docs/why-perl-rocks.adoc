@@ -2,6 +2,10 @@
 
 While trends may favor newer tools, the undeniable truth remains: Perl is still the most powerful and versatile language for text processing from the command line. Despite the rise of languages like Python, Perl's unparalleled features and efficiency make it the go-to choice for developers, hackers, and sysadmins who need to process text with precision and speed. It's regular expression DNA is in every other modern language.
 
+== Things shell forgot
+
+The `-T` switch is so powerful, unknown and obscure. All it does it test that the file not only exists and is readable, but is also a text file. Such a simple thing, but I use it all the time. All by itself this is a reason to choose Perl over Bash for almost everything I do.
+
 == Why Perl rules the command line
 
 === A text-processing powerhouse
