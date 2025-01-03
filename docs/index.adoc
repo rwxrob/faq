@@ -70,3 +70,5 @@ include::why-so-quiet.adoc[]
 include::why-asciidoc-not-mkdocs.adoc[]
 
 include::whats-your-favorite-thing-to-do.adoc[]
+
+include::./sysde.adoc[]
