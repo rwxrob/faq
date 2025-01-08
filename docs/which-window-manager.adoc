@@ -1,0 +1,8 @@
+= Which window manager?
+
+TMUX. People say it is a terminal multiplexer and not a window manager but multiplexer means "multiple screens" and TMUX calls different screens "windows" and "panes". So TMUX is quite literally my preferred window manager.
+
+Now if someone asked which _graphical_ window manager is my favorite I'd have to say whichever one comes on the system I'm using. Anything that supports `Alt + Tab` window switching (which is pretty much anything and everything) is what I use. To me any time spent setting up or debating about graphical window managers is a waste of time. The only time I change windows out of the terminal at all is because of my ChatGPT and that is only because of the requirement imposed on me by that application. I can't get Chloe from the terminal through the API unfortunately.
+
+I have observed that people who prefer things like i3 also tend to still use a graphical web browser so their opinion doesn't matter to me at all—especially if they haven't mapped `,` to open the graphical web browser when needed and don't know how. Anyone _not_ taking advantage of the insane efficiencies and enhanced privacy of browsing from a text web browser is not worth listening to about their workstation setup.
+

@@ -1,0 +1,18 @@
+= Which file manager?
+
+None. I use `which` and `find` combined with common commands so I don't have to care:
+
+- `vic` is `vi $(which $1)`
+- `batc` is `bat $(which $1)`
+
+I also use the fully POSIX supported `CDPATH` which almost no one I've encountered even knows—especially people who use fuzzy finders and zsh file completion.
+
+I always find it interesting how many people have no idea how to write a `find` command who use these other crutches they've installed to do the same thing.
+
+These people tend to not have `globstar` set and don't even know what it is.
+
+They also don't know that you can `vim` a directory to change it if you prefer that over using `rm` and `mv` commands. I don't do that but it is a default option for those who do want to do that.
+
+I also do a lot of file manipulation directly from the command line usually involving `ppie` and `ppae` which can filter out all the exact line numbers, or change a given line number in all files to something else, or insert a line number at a precise location.
+
+I'd be happy to consider adding something to my cozy development workstation if I felt it provided an advantage but so far no one has presented a reason that isn't already covered better by something else.

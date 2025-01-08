@@ -31,8 +31,6 @@ _All the questions I'm tired of answering_
 
 ---
 
-include::./copyright.adoc[]
-
 include::./tools/index.adoc[]
 
 include::why-golang.adoc[]
@@ -44,10 +42,6 @@ include::why-vim.adoc[]
 include::why-vimrc.adoc[]
 
 include::why-github.adoc[]
-
-include::why-bash-for-beginners.adoc[]
-
-include::why-git-bash.adoc[]
 
 include::what-other-term-magic.adoc[]
 
@@ -71,4 +65,10 @@ include::why-asciidoc-not-mkdocs.adoc[]
 
 include::whats-your-favorite-thing-to-do.adoc[]
 
+include::./which-window-manager.adoc[]
+
+include::./which-file-manager.adoc[]
+
 include::./sysde.adoc[]
+
+include::./copyright.adoc[]
